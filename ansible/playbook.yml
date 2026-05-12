@@ -9,7 +9,7 @@
     - name: Copy WAR file to Tomcat
 
       copy:
-        src: "src: "/home/vboxuser/.jenkins/workspace/ext-2/target/MavenAnsibleWebApp1.war""
+        src: "/home/vboxuser/.jenkins/workspace/ext-2/target/MavenAnsibleWebApp1.war"
         dest: "/opt/tomcat/webapps/MavenAnsibleWebApp1.war"
         remote_src: no
 
