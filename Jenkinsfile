@@ -18,7 +18,7 @@ pipeline {
             steps {
 
                 git branch: 'master',
-                url: 'https://github.com/YOUR_USERNAME/MavenAnsibleWebApp1-CICD.git'
+                url: 'https://github.com/harshithxr/ext-2.git'
 
             }
         }
